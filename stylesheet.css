@@ -1,0 +1,114 @@
+.center80 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+@font-face {
+  font-family: "Gotham Bold";
+  src: url(fonts/GothamBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gotham Medium";
+  src: url(fonts/GothamMedium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Bold";
+  src: url(fonts/Ubuntu-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Ubuntu Medium";
+  src: url(fonts/Ubuntu-Medium.ttf) format("truetype");
+}
+
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(250, 250, 250);
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: rgb(230, 230, 230);
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.h {
+  font-family: "Ubuntu Bold";
+  line-height: 2;
+}
+
+.p {
+  font-family: "Ubuntu Medium";
+  line-height: 1.7;
+  font-size: medium;
+  padding-bottom: 15px;
+}
+
+.noBorderAtAll {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.topBottomMargin {
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+}
+
+.roundCornerImg {
+  border-radius: 30px;
+}
+
+.rcorners {
+  border-radius: 15px;
+  background: rgb(21, 84, 143);
+  padding: 20px;
+  width: 200px;
+  height: 30px;
+}
+
+.grid {
+  border-radius: 40px;
+  position: relative;
+  border: 0;
+  margin-left: 0;
+  box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.2);
+  padding: 10%;
+  display: inline-block;
+  background-color: white;
+  vertical-align: top;
+  transition: 0.3s;
+}
+
+.grid:hover {
+  box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.32);
+}
+
+#navbar {
+  height: 120px;
+  position: sticky;
+  z-index: 999;
+}
+
+#navbar li {
+  display: inline-block;
+}
+
+#navbar ul {
+  margin: 0;
+  border: 0;
+  padding-left: 10%;
+  width: 80%;
+}
